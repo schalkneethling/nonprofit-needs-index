@@ -1,0 +1,24 @@
+.girdle {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+
+  @media #{$mq-tablet-and-up} {
+    padding: inherit;
+  }
+}
+
+.flex-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .field-group {
+    flex-basis: 40%;
+  }
+}
+
+.field-group {
+  display: block;
+  margin: 20px 0;
+}

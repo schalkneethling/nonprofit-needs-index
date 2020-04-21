@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>See a need, fill a need - Nonprofit Needs Index</title>
+    <link rel="stylesheet" type="text/css" href="./css/nni.css" media="screen" />
+</head>
+
+<body>
+    <div class="girdle">
+        <div class="hero">
+            <a href="/">
+                <h1 class="logo"><span class="visually-hidden">Nonprofit Needs
+                        Index</span>
+                </h1>
+            </a>
+            <p class="leadin">Nonprofits have a tough time during the best of times to
+                meet the needs of
+                the
+                people they serve. During a wordlwide pandemic, the challenges are
+                multiplied
+                ten fold.</p>
+            <p>Nonprofit Needs Index wants to help nonprofits surface their needs and make
+                it
+                easy for people and businesses to find ways they can help.</p>
+        </div>
+    </div>
+
+    <div class="our-needs-wrapper">
+        <form class="our-needs" name="needs" action="/thank-you" method="post"
+            data-netlify="true">
+            <h2 class="readable-line-length">Running a nonprofit, let us know your needs
+            </h2>
+            <fieldset class="flex-group">
+                <div class="field-group">
+                    <label for="project-name">Organization name:</label>
+                    <input type="text" id="project-name" name="project-name" required />
+                </div>
+
+                <div class="field-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+            </fieldset>
+
+            <fieldset class="flex-group">
+                <div class="field-group">
+                    <label for="website">Website:</label>
+                    <input type="url" id="website" name="website"
+                        placeholder="https://example.com" />
+                </div>
+
+                <div class="field-group">
+                    <label for="donations">GoFundMe or
+                        similar?:</label>
+                    <input type="url" id="donations" name="donations"
+                        placeholder="https://example.com" />
+                </div>
+            </fieldset>
+
+            <div class="field-group">
+                <label for="yourneeds">Describe your challenges and how people can
+                    help:</label>
+                <textarea id="yourneeds" name="yourneeds"></textarea>
+            </div>
+
+            <input type="submit" class="button cta" value="Submit Information" />
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2020 nonprofit-needs-index.org</p>
+    </footer>
+</body>
+
+</html>

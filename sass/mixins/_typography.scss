@@ -1,0 +1,28 @@
+@mixin heading-1() {
+  font-size: $h1-font-size;
+}
+
+@mixin heading-2() {
+  font-size: $h2-font-size;
+}
+
+@mixin heading-3() {
+  font-size: $h3-font-size;
+}
+
+@mixin heading-4() {
+  font-size: $h4-font-size;
+}
+
+@mixin heading-5() {
+  font-size: $h5-font-size;
+}
+
+@mixin font-smoothing() {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin readable-line-length() {
+  max-width: $max-line-length;
+}

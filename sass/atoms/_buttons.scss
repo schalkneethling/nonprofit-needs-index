@@ -1,0 +1,13 @@
+.button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.cta {
+  background-color: $opera-mauve;
+  color: $deep-purple;
+  padding: 20px;
+  border-radius: 4px;
+  font-size: $button-font-size;
+}

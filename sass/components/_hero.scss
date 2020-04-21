@@ -1,0 +1,16 @@
+.hero {
+  margin: 0 auto 60px;
+  max-width: 1000px;
+  text-align: center;
+
+  p {
+    @include readable-line-length();
+    @include centered();
+  }
+
+  .leadin {
+    max-width: 48rem;
+    font-size: $leadin;
+    line-height: $leadin-line-height;
+  }
+}

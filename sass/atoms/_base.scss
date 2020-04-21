@@ -1,0 +1,6 @@
+body {
+  background-color: #fff;
+  color: #333;
+  font: 18px/1.65 sans-serif;
+  @include font-smoothing();
+}

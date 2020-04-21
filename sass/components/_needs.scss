@@ -1,0 +1,44 @@
+.our-needs-wrapper {
+  background-color: $light-gray;
+  padding: 40px 20px;
+
+  @media #{$mq-tablet-and-up} {
+    padding: 40px 0;
+  }
+
+  &::before {
+    display: none;
+
+    @media #{$mq-small-desktop-and-up} {
+      display: block;
+      position: absolute;
+      top: 440px;
+      right: 20px;
+      content: "";
+      background: transparent url("../media/hero.svg") 0 0 no-repeat;
+      background-size: 100%;
+      width: 350px;
+      height: 350px;
+    }
+
+    @media #{$mq-large-desktop-and-up} {
+      top: 400px;
+      width: 500px;
+      height: 500px;
+      z-index: inherit;
+    }
+  }
+}
+
+.our-needs {
+  margin: 60px auto;
+  max-width: 700px;
+
+  h2 {
+    position: relative;
+    color: $hookers-green;
+    margin: 40px auto;
+    text-align: center;
+    z-index: 10;
+  }
+}

@@ -1,0 +1,35 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: $heading-line-height;
+}
+
+h1 {
+  @include heading-1();
+}
+
+h2 {
+  @include heading-2();
+}
+
+h3 {
+  @include heading-3();
+}
+
+h4 {
+  @include heading-4();
+}
+
+h5 {
+  @include heading-5();
+}
+
+.tiny-text {
+  font-size: $tiny-text;
+}
+
+.readable-line-length {
+  @include readable-line-length();
+}

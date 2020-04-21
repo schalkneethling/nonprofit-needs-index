@@ -1,0 +1,30 @@
+.thank-you {
+  padding-bottom: 20px;
+  min-height: 50vh;
+  text-align: center;
+
+  &::before {
+    display: none;
+  }
+
+  h2 {
+    @include centered();
+    position: relative;
+    max-width: 400px;
+
+    &::before {
+      display: block;
+      content: "";
+      background: transparent url("../media/hero.svg") 0 0 no-repeat;
+      background-size: 100%;
+      width: 350px;
+      height: 280px;
+    }
+  }
+
+  p {
+    @include centered();
+    margin-bottom: 40px;
+    max-width: 42em;
+  }
+}
