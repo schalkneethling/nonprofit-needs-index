@@ -2,10 +2,6 @@
   background-color: $light-gray;
   padding: 40px 20px;
 
-  @media #{$mq-tablet-and-up} {
-    padding: 40px 0;
-  }
-
   &::before {
     display: none;
 

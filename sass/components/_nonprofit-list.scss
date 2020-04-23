@@ -1,0 +1,38 @@
+.nonprofit-entry {
+  background-color: $beau-blue;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 4px;
+  max-width: 900px;
+
+  h2,
+  h3 {
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    margin-top: 20px;
+  }
+
+  a:link,
+  a:visited {
+    color: $deep-purple;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus,
+  a:active {
+    text-decoration: underline;
+  }
+
+  ul {
+    margin: 20px 0;
+  }
+}
+
+.our-needs-wrapper {
+  &::before {
+    top: 220px;
+  }
+}

@@ -3,19 +3,35 @@
 }
 
 @mixin heading-2() {
-  font-size: $h2-font-size;
+  font-size: $h2-font-size-mobile;
+
+  @media #{$mq-tablet-and-up} {
+    font-size: $h2-font-size;
+  }
 }
 
 @mixin heading-3() {
-  font-size: $h3-font-size;
+  font-size: $h3-font-size-mobile;
+
+  @media #{$mq-tablet-and-up} {
+    font-size: $h3-font-size;
+  }
 }
 
 @mixin heading-4() {
-  font-size: $h4-font-size;
+  font-size: $h4-font-size-mobile;
+
+  @media #{$mq-tablet-and-up} {
+    font-size: $h4-font-size;
+  }
 }
 
 @mixin heading-5() {
-  font-size: $h5-font-size;
+  font-size: $h5-font-size-mobile;
+
+  @media #{$mq-tablet-and-up} {
+    font-size: $h5-font-size;
+  }
 }
 
 @mixin font-smoothing() {
