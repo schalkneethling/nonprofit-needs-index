@@ -1,6 +1,7 @@
 .nonprofit-entry {
+  position: relative;
   background-color: $beau-blue;
-  margin: 20px auto;
+  margin: 20px auto 40px;
   padding: 20px;
   border-radius: 4px;
   max-width: 900px;
@@ -24,6 +25,10 @@
   a:focus,
   a:active {
     text-decoration: underline;
+  }
+
+  p {
+    margin: 10px 0;
   }
 
   ul {
